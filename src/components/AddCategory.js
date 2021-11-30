@@ -13,10 +13,12 @@ export default function AddCategory({ setCategories }) {
     // * setCategories([...categories, inputValue]);
     if (inputValue.trim().length > 2) {
       setCategories((cats) => [inputValue, ...cats]);
+      setInputValue("");
     }
   };
   return (
     <form onSubmit={handleSubmit}>
+      <p>{inputValue}</p>
       <input type="text" value={inputValue} onChange={handleInputChange} />
     </form>
   );

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import AddCategory from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
 
-export default function GifExpertApp() {
-  const [categories, setCategories] = useState(["One Punch Man"]);
+export default function GifExpertApp({ defaultCategories = [] }) {
+  const [categories, setCategories] = useState(defaultCategories);
 
   // const handleAdd = () => {
   //   const newItem = "One Piece";
