@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About Project
+
+App to search gifs, developed in React. To check the app in production visit this link:
+
+https://react-gifexpertapp-afcyfvsko-hectorairy.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
